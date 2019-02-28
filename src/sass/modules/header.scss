@@ -1,0 +1,14 @@
+header {
+  background: white;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #444444 solid;
+
+  .logo {
+    color: $brand-color;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
