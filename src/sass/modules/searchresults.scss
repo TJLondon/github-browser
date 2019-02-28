@@ -1,0 +1,67 @@
+@import '../globals/variables';
+
+
+.home-message, .error {
+  text-align: center;
+  color: #717584;
+  margin: 25px 0
+}
+
+.repo_list {
+
+  margin: 45px 0 0 0;
+
+  @media screen and (min-width: $mq-md) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .repo_item {
+    cursor: pointer;
+    position: relative;
+    padding: 0 0 40px 0;
+
+    .head-container {
+      border-bottom: 1px $border solid;
+      padding: 5px;
+    }
+
+    background: $white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    margin: 20px 0;
+    width: 100%;
+
+    .misc {
+      display: flex;
+      flex-wrap: wrap;
+      bottom: 0;
+      position: absolute;
+
+      .fa-star {
+        color: $brand-color;
+        padding-top: 3px;
+        float: right;
+      }
+
+      .lang {
+        margin-right: 0;
+      }
+    }
+
+    @media screen and (min-width: $mq-md) {
+      width: calc(33.3333% - 20px);
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+    }
+
+    @media screen and (min-width: $mq-xl) {
+      width: calc(25% - 20px);
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+    }
+  }
+}
+

@@ -1,0 +1,26 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(270deg, #48367d 0%, #241842 100%);
+}
+
+.content-wrapper {
+  padding: 40px 20px 80px 20px;
+}
+

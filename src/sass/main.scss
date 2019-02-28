@@ -1,0 +1,11 @@
+@import "./font-awesome/scss/font-awesome.scss";
+@import "globals/variables";
+@import "partials/base";
+@import "partials/typography";
+
+//modules
+@import "modules/header.scss";
+@import "modules/searchresults";
+@import "modules/searchbar";
+@import "modules/details";
+@import "modules/loading";

@@ -1,0 +1,32 @@
+.searchbar {
+  text-align:center;
+  margin: 20px 0;
+
+  #username {
+    font-size: 1.4rem;
+    border:0;
+    padding: 4px 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    text-align: center;
+  }
+
+  #submit {
+    padding: 8px 30px;
+    margin: 20px 0 0 0;
+    text-align: center;
+    background-color: $accent-color;
+    border: 0;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+        opacity: 0.6
+    }
+  }
+}
